@@ -1,0 +1,23 @@
+#balloon-container{
+    font-size: 50px;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.balloon{
+    opacity: 1;
+    animation: floatUp 4s forwards;
+}
+
+@keyframes floatUp{
+    0%{
+        bottom: -100%;
+    }
+    100%{
+        bottom: 90%;
+    }
+}
