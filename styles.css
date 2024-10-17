@@ -1,3 +1,67 @@
+body{
+    background: rgb(49,204,37);
+background: radial-gradient(circle, rgba(49,204,37,1) 0%, rgba(198,28,180,1) 100%);
+}
+h1{
+    text-align: center;
+    padding: 40px 50px;
+    font-size: 30px;
+    color: rgb(30, 100, 90);
+    border: 10px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: none ;
+}
+
+.styled-image{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+p{
+    font: 600 32px 'outfit', 'san-serif';
+    text-align: center;
+}
+
+nav{
+    background-color: green;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: wheat;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #5a32a8;
+    color: whitesmoke;
+}
+
+nav ul li a.active{
+    background-color: #3e32a8;
+    color: white;
+}
+
 /* style.css */
 #balloon-container {
     position: relative;
@@ -40,8 +104,6 @@ input[type="text"]::placeholder{
     color: blue;
     font-style: italic;
 }
-
-input[type="text"]
 
 button{
     background-color: aqua;
