@@ -26,6 +26,32 @@
         opacity: 0;
     }
 }
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder{
+    color: blue;
+    font-style: italic;
+}
+
+input[type="text"]
+
+button{
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
 /* Slideshow container */
 .slideshow-container {
     position: relative;
