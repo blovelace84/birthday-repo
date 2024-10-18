@@ -26,11 +26,14 @@ function getRandomColor() {
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
-document.getElementById('balloonButton').addEventListener('click', () => {
-    const intervalId = setInterval(createBalloon, 500);
-    setTimeout(() => {
+document.addEventListener('DOMContentLoaded', () =>{
+    const button = document.getElementById('balloonButton');
+    button.addEventListener('click', () =>{
+       const intervalId = setInterval(createBalloon, 500);
+       setTimeout(() =>{
         clearInterval(intervalId);
-    })
+       }) 
+    });
 })
 
 // Detect 'happy birthday' input
