@@ -116,6 +116,13 @@ button{
 }
 /* Slideshow container */
 
+img{
+    width: 100%;
+    height: auto;
+    border: 2px solid blue;
+    border: 10px;
+}
+
 #slider{
     overflow: hidden;
 }
