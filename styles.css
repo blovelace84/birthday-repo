@@ -13,6 +13,8 @@ h1{
     border-radius: none ;
 }
 
+
+
 .styled-image{
     width: 300px;
     height: auto;
@@ -95,6 +97,9 @@ input[type="text"]{
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
     border-radius: 5px;
     width: 300px;
     box-sizing: border-box;
@@ -110,6 +115,8 @@ button{
     color: black;
     padding: 10px 20px;
     border: none;
+    align-items: center;
+    display: flow-root;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;

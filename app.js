@@ -50,5 +50,3 @@ inputField.addEventListener('input', () => {
     }
 });
 
-
-  
