@@ -15,15 +15,6 @@ h1{
 
 
 
-.styled-image{
-    width: 300px;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 20px auto;
-    display: block;
-}
-
 p{
     font: 600 32px 'outfit', 'san-serif';
     text-align: center;
