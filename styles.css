@@ -13,8 +13,6 @@ h1{
     border-radius: none ;
 }
 
-
-
 p{
     font: 600 32px 'outfit', 'san-serif';
     text-align: center;
@@ -55,8 +53,8 @@ nav ul li a.active{
     color: white;
 }
 
-/* style.css */
-#balloon-container {
+/* This is for the balloon animations code */
+/* #balloon-container {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -66,14 +64,14 @@ nav ul li a.active{
 .balloon {
     position: absolute;
     bottom: -100px; /* Start off-screen */
-    width: 50px;
+    /* width: 50px;
     height: 80px;
     border-radius: 50%;
     background-color: red;
     animation: floatUp 5s linear infinite;
-}
+} */
 
-@keyframes floatUp {
+/* @keyframes floatUp {
     0% {
         bottom: -100px;
         opacity: 1;
@@ -111,60 +109,17 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-}
-/* Slideshow container */
+} */ */
 
-img{
+.slider{
+    position: relative;
     width: 100%;
-    height: auto;
-    border: 2px solid blue;
-    border: 10px;
-}
-
-#slider{
+    margin: auto;
     overflow: hidden;
 }
 
-#slider figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
+.slider img{
+    width: 100%;
+    display: none;
 }
 
-#slider figure img{
-    float: left;
-    width: 20%;
-}
-
-@keyframes slider {
-    0%{
-        left: 0;
-
-    }
-    20%{
-        left: 0;
-    }
-    25%{
-        left: -100%;
-    }
-    45%{
-        left: -100%;
-    }
-    50%{
-        left: -200%;
-    }
-    70%{
-        left: -200%;
-    }
-    75%{
-        left: -300;
-    }
-    95%{
-        left: -300%;
-    }
-    100%{
-        left: -400%;
-    }
-}
